@@ -61,10 +61,10 @@ public class Module {
     @Override
     public String toString() {
         return "Module{" +
-                "moduleName='" + moduleName + '\'' +
-                ", id='" + id + '\'' +
-                ", students=" + students +
-                ", courses=" + courses +
+                "\nmoduleName='" + moduleName + '\'' +
+                ", \nid='" + id + '\'' +
+                ", \nstudents=" + students +
+                ", \ncourses=" + courses +
                 '}';
     }
 }

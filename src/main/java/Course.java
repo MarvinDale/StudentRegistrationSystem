@@ -74,11 +74,11 @@ public class Course {
     @Override
     public String toString() {
         return "Course{" +
-                "courseName='" + courseName + '\'' +
-                ", modules=" + modules +
-                ", students=" + students +
-                ", startDate=" + startDate +
-                ", endDate=" + endDate +
+                "\ncourseName='" + courseName + '\'' +
+                ", \nmodules=" + modules +
+                ", \nstudents=" + students +
+                ", \nstartDate=" + startDate +
+                ", \nendDate=" + endDate +
                 '}';
     }
 }

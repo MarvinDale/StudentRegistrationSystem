@@ -89,12 +89,12 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", DOB=" + DOB +
-                ", ID="  + ID +
-                ", registeredCourses=" + registeredCourses +
-                ", registeredModules=" + registeredModules +
+                "\nname='" + name + '\'' +
+                ", \nage=" + age +
+                ", \nDOB=" + DOB +
+                ", \nID="  + ID +
+                ", \nregisteredCourses=" + registeredCourses +
+                ", \nregisteredModules=" + registeredModules +
                 '}';
     }
 }
