@@ -82,7 +82,7 @@ public class Student {
         return registeredModules;
     }
 
-    public void setRegisteredModulesModule(List<Module> registeredModules) {
+    public void setRegisteredModules(List<Module> registeredModules) {
         this.registeredModules = registeredModules;
     }
 
