@@ -1,3 +1,7 @@
+/*
+    Name: Marvin Dale
+    ID:   18362583
+ */
 import java.util.ArrayList;
 
 public class Module {
@@ -5,6 +9,22 @@ public class Module {
     private String id;
     private ArrayList<Student> students;
     private ArrayList<Course> courses;
+
+    public Module(String moduleName) {
+        this.moduleName = moduleName;
+    }
+
+    public Module(String moduleName, String id) {
+        this.moduleName = moduleName;
+        this.id = id;
+    }
+
+    public Module(String moduleName, String id, ArrayList<Student> students, ArrayList<Course> courses) {
+        this.moduleName = moduleName;
+        this.id = id;
+        this.students = students;
+        this.courses = courses;
+    }
 
     public String getModuleName() {
         return moduleName;
@@ -36,5 +56,15 @@ public class Module {
 
     public void setCourses(ArrayList<Course> courses) {
         this.courses = courses;
+    }
+
+    @Override
+    public String toString() {
+        return "Module{" +
+                "moduleName='" + moduleName + '\'' +
+                ", id='" + id + '\'' +
+                ", students=" + students +
+                ", courses=" + courses +
+                '}';
     }
 }

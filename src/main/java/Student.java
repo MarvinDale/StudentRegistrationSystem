@@ -1,12 +1,38 @@
+/*
+    Name: Marvin Dale
+    ID:   18362583
+ */
+
 import org.joda.time.DateTime;
+
+import java.util.List;
 
 public class Student {
     private String name;
     private int age;
     private DateTime DOB;
     private int ID;
-    private Course course;
-    private Module module;
+    private List<Course> registeredCourses;
+    private List<Module> registeredModules;
+
+    public Student() {
+    }
+
+    public Student (String name, int age, DateTime DOB, int ID) {
+        this.name = name;
+        this.age = age;
+        this.DOB = DOB;
+        this.ID = ID;
+    }
+
+    public Student(String name, int age, DateTime DOB, int ID, List<Course> registeredCourses, List<Module> registeredModules) {
+        this.name = name;
+        this.age = age;
+        this.DOB = DOB;
+        this.ID = ID;
+        this.registeredCourses = registeredCourses;
+        this.registeredModules = registeredModules;
+    }
 
     public String getName() {
         return name;
@@ -44,19 +70,31 @@ public class Student {
         return name + age;
     }
 
-    public Course getCourse() {
-        return course;
+    public List<Course> getRegisteredCourses() {
+        return registeredCourses;
     }
 
-    public void setCourse(Course course) {
-        this.course = course;
+    public void setRegisteredCourses(List<Course> registeredCourses) {
+        this.registeredCourses = registeredCourses;
     }
 
-    public Module getModule() {
-        return module;
+    public List<Module> getRegisteredModules() {
+        return registeredModules;
     }
 
-    public void setModule(Module module) {
-        this.module = module;
+    public void setRegisteredModulesModule(List<Module> registeredModules) {
+        this.registeredModules = registeredModules;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", DOB=" + DOB +
+                ", ID="  + ID +
+                ", registeredCourses=" + registeredCourses +
+                ", registeredModules=" + registeredModules +
+                '}';
     }
 }
