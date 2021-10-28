@@ -64,7 +64,6 @@ public class Module {
                 "\nmoduleName='" + moduleName + '\'' +
                 ", id='" + id + '\'' +
                 ", students=" + students +
-                ", courses=" + courses +
                 '}';
     }
 }
