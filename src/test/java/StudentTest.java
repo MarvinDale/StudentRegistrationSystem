@@ -60,7 +60,7 @@ public class StudentTest {
     @Test
     void setAndGetRegisteredModules() {
         registeredModules.add(module);
-        student.setRegisteredModulesModule(registeredModules);
+        student.setRegisteredModules(registeredModules);
         assertEquals(registeredModules, student.getRegisteredModules());
     }
 }
