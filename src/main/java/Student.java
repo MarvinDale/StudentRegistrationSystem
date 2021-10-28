@@ -93,8 +93,6 @@ public class Student {
                 ", \nage=" + age +
                 ", \nDOB=" + DOB +
                 ", \nID="  + ID +
-                ", \nregisteredCourses=" + registeredCourses +
-                ", \nregisteredModules=" + registeredModules +
                 '}';
     }
 }
