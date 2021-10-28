@@ -75,10 +75,10 @@ public class Course {
     public String toString() {
         return "Course{" +
                 "\ncourseName='" + courseName + '\'' +
-                ", \nmodules=" + modules +
-                ", \nstudents=" + students +
-                ", \nstartDate=" + startDate +
-                ", \nendDate=" + endDate +
+                ", modules=" + modules +
+                ", students=" + students +
+                ", startDate=" + startDate +
+                ", endDate=" + endDate +
                 '}';
     }
 }

@@ -90,9 +90,9 @@ public class Student {
     public String toString() {
         return "Student{" +
                 "\nname='" + name + '\'' +
-                ", \nage=" + age +
-                ", \nDOB=" + DOB +
-                ", \nID="  + ID +
+                ", age=" + age +
+                ", DOB=" + DOB +
+                ", ID="  + ID +
                 '}';
     }
 }

@@ -62,9 +62,9 @@ public class Module {
     public String toString() {
         return "Module{" +
                 "\nmoduleName='" + moduleName + '\'' +
-                ", \nid='" + id + '\'' +
-                ", \nstudents=" + students +
-                ", \ncourses=" + courses +
+                ", id='" + id + '\'' +
+                ", students=" + students +
+                ", courses=" + courses +
                 '}';
     }
 }
